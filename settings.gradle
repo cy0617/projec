@@ -1,0 +1,1 @@
+include ':app', ':baidu', ':beauty', ':common', ':im', ':live', ':main', ':mob', ':video',  ':mall'

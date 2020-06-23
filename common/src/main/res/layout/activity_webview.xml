@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_realname" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:progressDrawable="@drawable/bg_horizontal_progressbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/realname_title"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27.5dp"
+        android:layout_marginRight="15.65dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/realname_tvname"
+            android:textColor="@color/black1"
+
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/realname_et_name"
+            android:layout_width="332dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:hint="@string/realname_etname"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <View
+        android:background="#EDEDED"
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27.5dp"
+        android:layout_marginRight="15.65dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/realname_tvnumber"
+            android:textColor="@color/black1"
+
+            android:textSize="14sp" />
+
+        <EditText
+            android:layout_width="332dp"
+            android:layout_height="44dp"
+            android:id="@+id/realname_et_number"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:hint="@string/realname_etnumber"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <View
+        android:background="#EDEDED"
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"/>
+    <TextView
+        android:id="@+id/realname_btn_next"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:background="@drawable/login_btn"
+        android:layout_height="44dp"/>
+
+</LinearLayout>

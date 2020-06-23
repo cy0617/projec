@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_beauty_sticker_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_beauty_sticker"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:theme="@style/AppTheme"
+            app:tabGravity="fill"
+            app:tabIndicatorGravity="center"
+            app:tabIndicatorHeight="0dp"
+            app:tabMaxWidth="0dp"
+            app:tabMinWidth="40dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/bg_black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/sticker_tab_divider" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_beauty_sticker"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

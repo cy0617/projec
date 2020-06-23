@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: :LiteAVSDK_Professional:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Professional.aar/85cdd2331e4c037a7460fce58a74d3ea/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Professional.aar/85cdd2331e4c037a7460fce58a74d3ea/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Professional.aar/85cdd2331e4c037a7460fce58a74d3ea/jars/libs/liteavsdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Professional.aar/85cdd2331e4c037a7460fce58a74d3ea/jars/libs/okgo-3.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Professional.aar/85cdd2331e4c037a7460fce58a74d3ea/jars/libs/okserver-2.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

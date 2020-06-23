@@ -1,0 +1,32 @@
+ext {
+    android = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            minSdkVersion    : 21,
+            targetSdkVersion : 28,
+            versionCode      : 7,
+            versionName      : "1.0.6"
+    ]
+
+    manifestPlaceholders = [
+            //服务器地址
+            serverHost       : "http://cz56.yczbfx.com",
+
+            //极光推送 IM
+            jpushAppKey      : "24d6810380d3ab90ba066d9a",
+
+            //腾讯地图
+            txMapAppKey      : "",
+            txMapAppSecret   : "",
+            //腾讯bugly
+            buglyAppId       : "8f1be4a7b8",
+            //百度语音识别
+            baiduAppId       : "20290796",
+            baiduAppKey      : "6kkwkBwtOZ5bFZ51ckgRE0qM",
+            baiduAppSecretKey: "Pn0gOddaHbgzZgnsGBXbXtmIwlfP6GFT",
+            //友盟统计
+            umengAppKey      : ""
+
+    ]
+
+}

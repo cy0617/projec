@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="140dp"
+    android:background="@mipmap/bg_shop_explain_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:text="111122222"
+        android:textColor="@color/global"
+        android:textSize="10dp" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/thumb"
+        android:layout_width="105dp"
+        android:scaleType="centerCrop"
+        android:layout_height="105dp"
+        android:layout_above="@id/price"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:riv_corner_radius="3dp" />
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/thumb"
+        android:layout_alignTop="@id/thumb"
+        android:scaleType="fitStart"
+        android:src="@mipmap/icon_explain" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="13dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/thumb"
+        android:layout_alignRight="@id/thumb"
+        android:scaleType="fitStart"
+        android:src="@mipmap/icon_explain_close" />
+
+</RelativeLayout>
