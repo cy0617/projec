@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.yunbao.common.interfaces.OnItemClickListener;
 import com.yunbao.game.R;
 import com.yunbao.game.util.GameIconUtil;
-import com.yunbao.common.interfaces.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.List;

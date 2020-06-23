@@ -5,7 +5,6 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import com.alibaba.fastjson.JSONObject;
-import com.yunbao.common.utils.RouteUtil;
 import com.yunbao.common.utils.WordUtil;
 import com.yunbao.common.views.AbsViewHolder;
 import com.yunbao.game.R;
